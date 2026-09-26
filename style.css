@@ -1,0 +1,102 @@
+body {
+  background-color: #f5f3ed;
+  font-family: Arial, sans-serif;
+  margin: center;
+}
+
+h1 {
+  padding: 40px 40px;
+  width: 80%;
+  background-color: #2C003E;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 1px ;
+  border-radius: 10px 10px 0 0;
+  color: #64DFDF;
+  box-shadow: px 9px 0px 0px #C62A88;
+}
+
+form {
+  width: 80%;
+  margin-top: 0;
+  background-image: url('galaxy.jpg');
+  background-color: #fff5e6;
+  padding: 40px 40px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+
+
+form div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+form div label {
+  min-width: 150px;
+  font-weight: bold;
+  margin-right: 20px;
+  line-height: 30px;
+  color: #64DFDF;
+  font-size: 16px;
+}
+
+form div select {
+  min-width: 150px;
+}
+
+form div input[type="text"],
+form div input[type="email"],
+form div input[type="password"],
+form div select {
+  flex: 1;
+  border-radius: 3px;
+  border: 1px solid #C62A88;
+  padding: 10px;
+  font-size: 16px;
+  color: #3A1078;
+}
+
+button[type="submit"] {
+  background-color: #2C003E;
+  color: #ffffff;
+  border: none;
+  padding: 13px 148px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 0px 0px #C62A88;
+}
+
+button[type="submit"]:hover {
+  background-color: #2C003E;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.success {
+  color: #008000;
+  margin-top: 10px;
+}
+
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  transition: all 0.2s ease-in-out;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #C62A88;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
